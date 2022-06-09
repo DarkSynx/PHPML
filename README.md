@@ -22,7 +22,11 @@ il existe une autre forme
 cela permet d'exploité visuellement différement des valeurs ou des drapeaux
 
 ```
+Utilisation : 
+ou vous chargez un fichier avec "ctag"
 ```html
+$tag = new Modules_actions();
+$tag->ctag( <<<TAG
 <phpml:var="user" inserts="$test"></phpml>
 <phpml:head="{
 'doctype':'html',
@@ -92,4 +96,6 @@ cela permet d'exploité visuellement différement des valeurs ou des drapeaux
     </else>
 </phpml>
 <phpml:end><footer></footer></phpml>
+TAG;
+);
 ```
