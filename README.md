@@ -10,7 +10,7 @@ LE FORMAT LONG :
 OU LE FORMAT REDUIT:
 <phpml:class.var="user" insert="3"></phpml>
 
-La partie Actions permet plusieurs possibilité
+La partie Actions ou phpml: permet plusieurs possibilité
 <phpml:var="user" isert="3"></phpml> cette forme va directement appeler la class phpml et var
 
 si je désire exploité le constructeur avec des drapeaux de la class
