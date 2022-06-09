@@ -26,6 +26,7 @@ Utilisation :
 ou vous chargez un fichier avec "ctag"
 ```html
 $tag = new Modules_actions();
+$test = 3;
 $donnee = <<<TAG
 <phpml:var="user" inserts="$test"></phpml>
 <phpml:head="{
