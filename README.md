@@ -26,7 +26,7 @@ Utilisation :
 ou vous chargez un fichier avec "ctag"
 ```html
 $tag = new Modules_actions();
-$tag->ctag( <<<TAG
+$donnee = <<<TAG
 <phpml:var="user" inserts="$test"></phpml>
 <phpml:head="{
 'doctype':'html',
@@ -97,5 +97,5 @@ $tag->ctag( <<<TAG
 </phpml>
 <phpml:end><footer></footer></phpml>
 TAG;
-);
+$tag->ctag($donnee);
 ```
